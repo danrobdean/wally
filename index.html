@@ -4,20 +4,30 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Where's Wallies</title>
+    <title>Where's Wallies??</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
 
 <body onload="setHeads()">
-    <img src="wally.jpg" class="wally"/>
-    <img id="spooky" class="head head1"/>
-    <img id="cheery" class="head head2"/>
-    <div class="modal" id="modal" onclick="hideModal()">
-        <div class="modalInner">
-            <img id="bigHead" class="bigHead"/>
-            <span id="headText" class="headText"></span>
+    <div class="container">
+        <div class="description">
+            <span class="text">Find all 13 of us!</span>
+            <button class="button" onclick="highlightAll()">Give up</button>
+        </div>
+        <img src="wally.jpg" class="wally"/>
+        <img id="spooky" class="head head1"/>
+        <img id="cheery" class="head head2"/>
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modalInner">
+                <img id="bigHead" class="bigHead"/>
+                <div class="details">
+                    <span id="name" class="name"></span>
+                    <span id="role" class="role"></span>
+                    <span id="fact" class="fact"></span>
+                </div>
+            </div>
         </div>
     </div>
 </body>
