@@ -26,6 +26,7 @@
 
 span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .head {
@@ -49,6 +50,71 @@ span {
     top: 657px;
 }
 
+.dani {
+    left: 0px;
+    top: 0px;
+}
+
+.daniel {
+    left: 0px;
+    top: 0px;
+}
+
+.elle {
+    left: 0px;
+    top: 0px;
+}
+
+.ivo {
+    left: 0px;
+    top: 0px;
+}
+
+.joe {
+    left: 0px;
+    top: 0px;
+}
+
+.justine {
+    left: 0px;
+    top: 0px;
+}
+
+.nikita {
+    left: 0px;
+    top: 0px;
+}
+
+.michael {
+    left: 0px;
+    top: 0px;
+}
+
+.miron {
+    left: 0px;
+    top: 0px;
+}
+
+.paul {
+    left: 0px;
+    top: 0px;
+}
+
+.teri {
+    left: 0px;
+    top: 0px;
+}
+
+.tilman {
+    left: 0px;
+    top: 0px;
+}
+
+.vlad {
+    left: 0px;
+    top: 0px;
+}
+
 .bigHead {
     display: block;
     margin: 0 auto;
@@ -69,7 +135,7 @@ span {
 }
 
 .role {
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
 }
 
 .fact {
@@ -101,6 +167,11 @@ span {
 @media only screen and (max-device-width: 900px) {
     .modalInner {
         font-size: 6vh;
+    }
+}
+
+@media only screen and (max-device-width: 900px) and (orientation: portrait) {
+    .modalInner {
         height: 30%;
     }
 }
