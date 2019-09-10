@@ -38,6 +38,7 @@ span {
 .highlighted {
     box-shadow: 0 0 16px 8px #ff00fe;
     box-sizing: border-box;
+    background-color: #ff00fe;
 }
 
 .head1 {
@@ -52,67 +53,76 @@ span {
 
 .dani {
     left: 645px;
-    top: 868px;
+    top: 864px;
+    height: 15px;
+    width: auto;
 }
 
 .daniel {
-    left: 0px;
-    top: 0px;
+    left: 1016px;
+    top: 917px;
+    width: auto;
+    height: 18px;
 }
 
 .elle {
-    left: 0px;
-    top: 0px;
+    left: 626px;
+    top: 453px;
 }
 
 .ivo {
-    left: 0px;
-    top: 0px;
+    left: 546px;
+    top: 285px;
 }
 
 .joe {
-    left: 0px;
-    top: 0px;
+    left: 219px;
+    top: 957px;
 }
 
 .justine {
-    left: 0px;
-    top: 0px;
-}
-
-.nikita {
-    left: 0px;
-    top: 0px;
+    left: 530px;
+    top: 475px;
+    height: 15px;
+    width: auto;
 }
 
 .michael {
-    left: 0px;
-    top: 0px;
+    left: 923px;
+    top: 524px;
 }
 
 .miron {
     left: 232px;
-    top: 681px;
+    top: 677px;
+}
+
+.nikita {
+    left: 1402px;
+    top: 708px;
+    height: 14px;
+    width: auto;
 }
 
 .paul {
-    left: 0px;
-    top: 0px;
+    left: 908px;
+    top: 276px;
+    transform: rotate(-23deg);
 }
 
 .teri {
-    left: 0px;
-    top: 0px;
+    left: 719px;
+    top: 652px;
 }
 
 .tilman {
-    left: 0px;
-    top: 0px;
+    left: 1245px;
+    top: 540px;
 }
 
 .vlad {
-    left: 0px;
-    top: 0px;
+    left: 1108px;
+    top: 730px;
 }
 
 .bigHead {
