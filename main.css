@@ -172,6 +172,7 @@ span {
     width: 70%;
     height: 80%;
     font-size: 3vh;
+    padding: 2em;
 }
 
 @media only screen and (max-device-width: 900px) {
